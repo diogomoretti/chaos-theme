@@ -616,7 +616,7 @@
             "layer1.opacity": 1,
             "layer2.texture": "Chaos/assets/purple/folder--hover.png",
             "layer2.opacity": 0.0,
-            "layer3.texture": "Chaos/assets/purple/folder--hover.png",
+            "layer3.texture": "Chaos/assets/purple/folder-opened.png",
             "layer3.opacity": 0.0,
         },
 
