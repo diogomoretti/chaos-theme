@@ -1,3 +1,3 @@
 # Chaos Theme
 
-> Base on Preap 
+> Based on Preap 
