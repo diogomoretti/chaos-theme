@@ -52,10 +52,10 @@
 
         {
             "class": "fold_button_control",
-            "layer0.texture": "Chaos/assets/purple/fold_right.png",
+            "layer0.texture": "chaos-theme/assets/purple/fold_right.png",
             "layer0.opacity": 1.0,
             "layer0.inner_margin": 0,
-            "layer1.texture": "Chaos/assets/purple/fold_right--hover.png",
+            "layer1.texture": "chaos-theme/assets/purple/fold_right--hover.png",
             "layer1.opacity": 0.0,
             "layer1.inner_margin": 0,
             "content_margin": [9, 7, 8, 6]
@@ -71,8 +71,8 @@
         {
             "class": "fold_button_control",
             "attributes": ["expanded"],
-            "layer0.texture": "Chaos/assets/darker/fold_down.png",
-            "layer1.texture": "Chaos/assets/purple/fold_down--hover.png"
+            "layer0.texture": "chaos-theme/assets/darker/fold_down.png",
+            "layer1.texture": "chaos-theme/assets/purple/fold_down--hover.png"
         },
 
 
@@ -141,10 +141,10 @@
         // Command Panel
          {
               "class": "overlay_control",
-              "layer0.texture": "Chaos/assets/darker/overlay-bg.png",
+              "layer0.texture": "chaos-theme/assets/darker/overlay-bg.png",
               "layer0.inner_margin": [16, 4, 16, 33],
               "layer0.opacity": 1.0,
-              "layer1.texture": "Chaos/assets/purple/quick-panel-background.png",
+              "layer1.texture": "chaos-theme/assets/purple/quick-panel-background.png",
               "layer1.inner_margin": [16, 0, 16, 25],
               "layer1.opacity": 1.0,
               "content_margin": [13, 13, 13, 33]
@@ -357,20 +357,20 @@
             "content_margin": [0, 0],
 
              // Close Icon
-            "layer0.texture": "Chaos/assets/darker/close_icon.png",
+            "layer0.texture": "chaos-theme/assets/darker/close_icon.png",
             "layer0.opacity": 1,
             "layer0.inner_margin": 0,
 
             // Close Icon Hover
-            "layer1.texture": "Chaos/assets/purple/close_icon--hover.png",
+            "layer1.texture": "chaos-theme/assets/purple/close_icon--hover.png",
             "layer1.opacity": { "target": 0.0, "speed": 5.0, "interpolation": "smoothstep" },
 
              // Dirty Icon
-            "layer2.texture": "Chaos/assets/darker/dirty_icon.png",
+            "layer2.texture": "chaos-theme/assets/darker/dirty_icon.png",
             "layer2.inner_margin": 0,
 
             // Dirty Icon Hover
-            "layer3.texture": "Chaos/assets/purple/dirty_icon--hover.png",
+            "layer3.texture": "chaos-theme/assets/purple/dirty_icon--hover.png",
             "layer3.opacity": { "target": 0.0, "speed": 5.0, "interpolation": "smoothstep" }
         },
             // Default
@@ -438,10 +438,10 @@
         {
             "class": "scroll_tabs_left_button",
             "content_margin": [14, 7],
-            "layer0.texture": "Chaos/assets/darker/arrow_left.png",
+            "layer0.texture": "chaos-theme/assets/darker/arrow_left.png",
             "layer0.opacity": 1.0,
             "layer0.inner_margin": 0,
-            "layer1.texture": "Chaos/assets/purple/arrow_left--hover.png",
+            "layer1.texture": "chaos-theme/assets/purple/arrow_left--hover.png",
             "layer1.opacity": 0.0,
             "layer1.inner_margin": 0,
         },
@@ -455,10 +455,10 @@
         {
             "class": "scroll_tabs_right_button",
             "content_margin": [14, 7],
-            "layer0.texture": "Chaos/assets/darker/arrow_right.png",
+            "layer0.texture": "chaos-theme/assets/darker/arrow_right.png",
             "layer0.opacity": 1.0,
             "layer0.inner_margin": 0,
-            "layer1.texture": "Chaos/assets/purple/arrow_right--hover.png",
+            "layer1.texture": "chaos-theme/assets/purple/arrow_right--hover.png",
             "layer1.opacity": 0.0,
             "layer1.inner_margin": 0,
         },
@@ -472,10 +472,10 @@
         {
             "class": "show_tabs_dropdown_button",
             "content_margin": [12, 12],
-            "layer0.texture": "Chaos/assets/darker/overflow_menu.png",
+            "layer0.texture": "chaos-theme/assets/darker/overflow_menu.png",
             "layer0.opacity": 1.0,
             "layer0.inner_margin": 0,
-            "layer1.texture": "Chaos/assets/purple/overflow_menu--hover.png",
+            "layer1.texture": "chaos-theme/assets/purple/overflow_menu--hover.png",
             "layer1.opacity": 1,
             "layer1.inner_margin": 0,
         },
@@ -612,11 +612,11 @@
             "content_margin": [13, 8],
             "layer0.tint": [38, 50, 56],
             "layer0.opacity": 0,
-            "layer1.texture": "Chaos/assets/darker/folder.png",
+            "layer1.texture": "chaos-theme/assets/darker/folder.png",
             "layer1.opacity": 1,
-            "layer2.texture": "Chaos/assets/purple/folder--hover.png",
+            "layer2.texture": "chaos-theme/assets/purple/folder--hover.png",
             "layer2.opacity": 0.0,
-            "layer3.texture": "Chaos/assets/purple/folder-opened.png",
+            "layer3.texture": "chaos-theme/assets/purple/folder-opened.png",
             "layer3.opacity": 0.0,
         },
 
@@ -648,14 +648,14 @@
             [
                 { "class": "tree_row", "attributes": ["selected"] }
             ],
-            "layer1.texture": "Chaos/assets/purple/folder--hover.png",
+            "layer1.texture": "chaos-theme/assets/purple/folder--hover.png",
         },
 
             // Symlink folder icon
 
         {
             "class": "icon_folder_dup",
-            "layer0.texture": "Chaos/assets/darker/folder_dup.png",
+            "layer0.texture": "chaos-theme/assets/darker/folder_dup.png",
             "layer0.opacity": 1.0,
             "content_margin": [13, 8]
         },
@@ -664,23 +664,23 @@
             "class": "icon_folder_dup",
             "parents":
             [{ "class": "tree_row", "attributes": ["hover"] }],
-            "layer0.texture": "Chaos/assets/purple/folder_dup--hover.png"
+            "layer0.texture": "chaos-theme/assets/purple/folder_dup--hover.png"
         },
 
         {
             "class": "icon_folder_dup",
             "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
-            "layer0.texture": "Chaos/assets/purple/folder_dup--hover.png"
+            "layer0.texture": "chaos-theme/assets/purple/folder_dup--hover.png"
         },
 
             // Hidden arrow icon before folder
 
         {
             "class": "disclosure_button_control",
-            "layer0.texture": "Chaos/assets/purple/folder.png",
+            "layer0.texture": "chaos-theme/assets/purple/folder.png",
             "layer0.opacity": 1.0,
             "layer0.inner_margin": 0,
-            "layer1.texture": "Chaos/assets/purple/folder--hover.png",
+            "layer1.texture": "chaos-theme/assets/purple/folder--hover.png",
             "layer1.opacity": 0.0,
             "layer1.inner_margin": 0,
             "content_margin": [0, 0, 0, 0]
@@ -699,7 +699,7 @@
         {
             "class": "disclosure_button_control",
             "attributes": ["expanded"],
-            "layer0.texture": "Chaos/assets/purple/folder_opened--hover.png",
+            "layer0.texture": "chaos-theme/assets/purple/folder_opened--hover.png",
         },
 
         {
@@ -720,12 +720,12 @@
             "content_margin": [8, 8],
 
             // Default Close icon
-            "layer0.texture": "Chaos/assets/darker/close_icon.png",
+            "layer0.texture": "chaos-theme/assets/darker/close_icon.png",
             "layer0.opacity": { "target": 0.0, "speed": 7.0, "interpolation": "smoothstep" },
             "layer0.inner_margin": [0,0],
 
             // Hover close icon
-            "layer1.texture": "Chaos/assets/purple/close_icon--hover.png",
+            "layer1.texture": "chaos-theme/assets/purple/close_icon--hover.png",
             "layer1.opacity": 0,
             "layer1.inner_margin": [0,0],
         },
@@ -739,7 +739,7 @@
                 { "class": "tree_row", "attributes": ["hover"] }
             ],
             // Default Close icon
-            "layer0.texture": "Chaos/assets/darker/close_icon.png",
+            "layer0.texture": "chaos-theme/assets/darker/close_icon.png",
             "layer0.opacity": { "target": 1.0, "speed": 7.0, "interpolation": "smoothstep" },
             "layer0.inner_margin": [0,0],
         },
@@ -747,7 +747,7 @@
         {
             "class": "close_button",
             "attributes": ["dirty"],
-            "layer0.texture": "Chaos/assets/purple/dirty_icon--hover.png",
+            "layer0.texture": "chaos-theme/assets/purple/dirty_icon--hover.png",
             "layer0.opacity": 1.0,
         },
 
@@ -767,7 +767,7 @@
 
         {
             "class": "scroll_bar_control",
-            "layer0.texture": "Chaos/assets/darker/normal_bar_vertical.png",
+            "layer0.texture": "chaos-theme/assets/darker/normal_bar_vertical.png",
             "layer0.opacity": 1,
             "layer0.inner_margin": [0, 6],
             "blur": false
@@ -789,7 +789,7 @@
          {
               "class": "scroll_bar_control",
               "attributes": ["horizontal"],
-              "layer0.texture": "Chaos/assets/darker/normal_bar_horizontal.png",
+              "layer0.texture": "chaos-theme/assets/darker/normal_bar_horizontal.png",
               "layer0.opacity": 0,
               "layer0.inner_margin": [6, 0],
               "blur": false
@@ -811,7 +811,7 @@
 
         {
           "class": "scroll_corner_control",
-          "layer0.texture": "Chaos/assets/darker/normal_bar_corner.png",
+          "layer0.texture": "chaos-theme/assets/darker/normal_bar_corner.png",
           "layer0.opacity": 1,
           "layer0.inner_margin": [1, 1]
         },
@@ -823,7 +823,7 @@
             "layer0.tint": [38, 50, 255, 255],
             "layer0.opacity": 1.0,
             "layer0.inner_margin": [10, 10],
-            "layer1.texture": "Chaos/assets/darker/thumb_vertical.png",
+            "layer1.texture": "chaos-theme/assets/darker/thumb_vertical.png",
             "layer1.opacity": 1.0,
             "layer1.inner_margin": [8, 8],
             "content_margin": [6, 16],
@@ -835,7 +835,7 @@
         {
             "class": "puck_control",
             "attributes": ["horizontal"],
-            "layer0.texture": "Chaos/assets/darker/thumb_horizontal.png",
+            "layer0.texture": "chaos-theme/assets/darker/thumb_horizontal.png",
             "layer0.opacity": 1.0,
             "layer0.inner_margin": [10, 0],
             "content_margin": [16, 6],
@@ -872,7 +872,7 @@
         {
             "class": "scroll_bar_control",
             "settings": ["overlay_scroll_bars"],
-            "layer0.texture": "Chaos/assets/darker/normal_bar_vertical.png",
+            "layer0.texture": "chaos-theme/assets/darker/normal_bar_vertical.png",
             "layer0.inner_margin": [0, 5],
             "blur": true
         },
@@ -881,10 +881,10 @@
             "class": "scroll_bar_control",
             "settings": ["overlay_scroll_bars"],
             "attributes": ["horizontal"],
-            "layer0.texture": "Chaos/assets/darker/overlay_bar_horizontal.png",
+            "layer0.texture": "chaos-theme/assets/darker/overlay_bar_horizontal.png",
             "layer0.inner_margin": [5, 0],
             "layer0.opacity": 0.0,
-            "layer1.texture": "Chaos/assets/darker/overlay_bar_horizontal.png",
+            "layer1.texture": "chaos-theme/assets/darker/overlay_bar_horizontal.png",
             "layer1.inner_margin": [5, 0],
             "layer1.opacity": 0.0,
             "blur": true
@@ -895,7 +895,7 @@
             "layer0.tint": [38, 50, 56],
             "layer0.opacity": 0.0,
             "layer0.inner_margin": [1, 8, 1, 8],
-            "layer1.texture": "Chaos/assets/darker/thumb_vertical.png",
+            "layer1.texture": "chaos-theme/assets/darker/thumb_vertical.png",
             "layer1.inner_margin": [1, 8, 1, 8],
             "content_margin": [6, 16],
             "blur": true
@@ -907,7 +907,7 @@
             "layer0.tint": [38, 50, 56],
             "layer0.opacity": 0.0,
             "layer0.inner_margin": [8, 1, 8, 1],
-            "layer1.texture": "Chaos/assets/darker/thumb_horizontal.png",
+            "layer1.texture": "chaos-theme/assets/darker/thumb_horizontal.png",
             "layer1.inner_margin": [8, 1, 8, 1],
             "content_margin": [16, 6],
             "blur": true
@@ -1012,9 +1012,9 @@
 
         {
             "class": "panel_close_button",
-            "layer0.texture": "Chaos/assets/darker/close_icon.png",
+            "layer0.texture": "chaos-theme/assets/darker/close_icon.png",
             "layer0.opacity": 0.6,
-            "layer1.texture": "Chaos/assets/purple/close_icon--hover.png",
+            "layer1.texture": "chaos-theme/assets/purple/close_icon--hover.png",
             "layer1.opacity": 0.0,
             "content_margin": [0, 0] // 8,8 to show
         },
@@ -1042,7 +1042,7 @@
         {
             "class": "text_line_control",
             "parents": [{"class": "overlay_control"}],
-            "layer0.texture": "Chaos/assets/darker/input_field_border--short.png",
+            "layer0.texture": "chaos-theme/assets/darker/input_field_border--short.png",
             "layer0.tint": [238,238,238],
             "layer0.opacity": 1.0,
             "layer0.inner_margin": [32, 2, 32, 2],
@@ -1057,10 +1057,10 @@
             "class": "dropdown_button_control",
             "content_margin": [12, 12],
             "layer0.tint": [238,238,238],
-            "layer0.texture": "Chaos/assets/darker/overflow_menu.png",
+            "layer0.texture": "chaos-theme/assets/darker/overflow_menu.png",
             "layer0.opacity": 1.0,
             "layer0.inner_margin": [0, 0],
-            "layer1.texture": "Chaos/assets/purple/overflow_menu--hover.png",
+            "layer1.texture": "chaos-theme/assets/purple/overflow_menu--hover.png",
             "layer1.opacity": 0.0,
             "layer1.inner_margin": [0, 0],
         },
@@ -1092,10 +1092,10 @@
             "layer0.tint": [33, 33, 33],
             "layer0.opacity": 0.0,
             "layer0.inner_margin": [6, 6],
-            "layer1.texture": "Chaos/assets/purple/full_button_indented.png",
+            "layer1.texture": "chaos-theme/assets/purple/full_button_indented.png",
             "layer1.opacity": 0.0,
             "layer1.inner_margin": [6, 6],
-            "layer2.texture": "Chaos/assets/darker/blue_highlight.png",
+            "layer2.texture": "chaos-theme/assets/darker/blue_highlight.png",
             "layer2.opacity": { "target": 0.0, "speed": 2.0, "interpolation": "smoothstep" },
             "layer2.inner_margin": [6, 6]
         },
@@ -1134,9 +1134,9 @@
             // Regex Icon
         {
             "class": "icon_regex",
-            "layer0.texture": "Chaos/assets/purple/find_regex--hover.png",
+            "layer0.texture": "chaos-theme/assets/purple/find_regex--hover.png",
             "layer0.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
-            "layer1.texture": "Chaos/assets/darker/find_regex.png",
+            "layer1.texture": "chaos-theme/assets/darker/find_regex.png",
             "layer1.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
             "content_margin": [12, 12]
         },
@@ -1152,9 +1152,9 @@
 
         {
             "class": "icon_case",
-            "layer0.texture": "Chaos/assets/purple/find_case--hover.png",
+            "layer0.texture": "chaos-theme/assets/purple/find_case--hover.png",
             "layer0.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
-            "layer1.texture": "Chaos/assets/darker/find_case.png",
+            "layer1.texture": "chaos-theme/assets/darker/find_case.png",
             "layer1.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
             "content_margin": [12, 12]
         },
@@ -1170,9 +1170,9 @@
 
         {
             "class": "icon_whole_word",
-            "layer0.texture": "Chaos/assets/purple/find_word--hover.png",
+            "layer0.texture": "chaos-theme/assets/purple/find_word--hover.png",
             "layer0.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
-            "layer1.texture": "Chaos/assets/darker/find_word.png",
+            "layer1.texture": "chaos-theme/assets/darker/find_word.png",
             "layer1.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
             "content_margin": [12, 12]
         },
@@ -1189,9 +1189,9 @@
 
         {
             "class": "icon_wrap",
-            "layer0.texture": "Chaos/assets/purple/find_wrap--hover.png",
+            "layer0.texture": "chaos-theme/assets/purple/find_wrap--hover.png",
             "layer0.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
-            "layer1.texture": "Chaos/assets/darker/find_wrap.png",
+            "layer1.texture": "chaos-theme/assets/darker/find_wrap.png",
             "layer1.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
             "content_margin": [12, 12]
         },
@@ -1207,9 +1207,9 @@
 
         {
             "class": "icon_in_selection",
-            "layer0.texture": "Chaos/assets/purple/find_inselection--hover.png",
+            "layer0.texture": "chaos-theme/assets/purple/find_inselection--hover.png",
             "layer0.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
-            "layer1.texture": "Chaos/assets/darker/find_inselection.png",
+            "layer1.texture": "chaos-theme/assets/darker/find_inselection.png",
             "layer1.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
             "content_margin": [12,12]
         },
@@ -1226,9 +1226,9 @@
 
         {
             "class": "icon_highlight",
-            "layer0.texture": "Chaos/assets/purple/find_highlight--hover.png",
+            "layer0.texture": "chaos-theme/assets/purple/find_highlight--hover.png",
             "layer0.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
-            "layer1.texture": "Chaos/assets/darker/find_highlight.png",
+            "layer1.texture": "chaos-theme/assets/darker/find_highlight.png",
             "layer1.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
             "content_margin": [12, 12]
         },
@@ -1244,9 +1244,9 @@
 
         {
             "class": "icon_preserve_case",
-            "layer0.texture": "Chaos/assets/purple/replace_preserve_case--hover.png",
+            "layer0.texture": "chaos-theme/assets/purple/replace_preserve_case--hover.png",
             "layer0.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
-            "layer1.texture": "Chaos/assets/darker/replace_preserve_case.png",
+            "layer1.texture": "chaos-theme/assets/darker/replace_preserve_case.png",
             "layer1.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
             "content_margin": [12, 12]
         },
@@ -1262,9 +1262,9 @@
 
         {
             "class": "icon_context",
-            "layer0.texture": "Chaos/assets/purple/find_context--hover.png",
+            "layer0.texture": "chaos-theme/assets/purple/find_context--hover.png",
             "layer0.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
-            "layer1.texture": "Chaos/assets/darker/find_context.png",
+            "layer1.texture": "chaos-theme/assets/darker/find_context.png",
             "layer1.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
             "content_margin": [12, 12]
         },
@@ -1281,9 +1281,9 @@
 
         {
             "class": "icon_use_buffer",
-            "layer0.texture": "Chaos/assets/purple/use_buffer--hover.png",
+            "layer0.texture": "chaos-theme/assets/purple/use_buffer--hover.png",
             "layer0.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
-            "layer1.texture": "Chaos/assets/darker/use_buffer.png",
+            "layer1.texture": "chaos-theme/assets/darker/use_buffer.png",
             "layer1.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
             "content_margin": [12, 12]
         },
@@ -1299,9 +1299,9 @@
 
         {
             "class": "icon_reverse",
-            "layer0.texture": "Chaos/assets/purple/find_reverse--hover.png",
+            "layer0.texture": "chaos-theme/assets/purple/find_reverse--hover.png",
             "layer0.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
-            "layer1.texture": "Chaos/assets/darker/find_reverse.png",
+            "layer1.texture": "chaos-theme/assets/darker/find_reverse.png",
             "layer1.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
             "content_margin": [12, 12]
         },
